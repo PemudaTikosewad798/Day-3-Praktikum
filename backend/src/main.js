@@ -5,30 +5,30 @@ const port = 7000;
 
 app.get("/", (req, res) => {
   res.send({
-    nama: "Said Agil Siradz",
+    nama: "Lutfi Husaeri",
   });
 });
 app.get("/makanan", (req, res) => {
   res.send([
     {
       id: 1,
-      nama: "Indomie",
-      rasa: "Ayam bawang",
+      nama: "Baygon",
+      rasa: "Bakar",
     },
     {
       id: 2,
-      nama: "Gorengan",
-      rasa: "Kadut",
+      nama: "Nasi",
+      rasa: "Kuning Tai",
     },
     {
       id: 3,
-      nama: "Martabak",
-      rasa: "Bangka",
+      nama: "Bakso",
+      rasa: "Asam Urat",
     },
     {
       id: 4,
-      nama: "Roti",
-      rasa: "Jepang",
+      nama: "Sop",
+      rasa: "Tulang Knalpot",
     },
   ]);
 });
@@ -36,23 +36,23 @@ app.get("/minuman", (req, res) => {
   res.send([
     {
       id: 1,
-      nama: "Teh",
-      rasa: "Sosro",
+      nama: "Susu",
+      rasa: "Dada Paha",
     },
     {
       id: 2,
-      nama: "Cofee",
-      rasa: "Ya",
+      nama: "Es",
+      rasa: "Oli yamalube",
     },
     {
       id: 3,
-      nama: "Sirup",
-      rasa: "ABD",
+      nama: "Teh",
+      rasa: "Tarik Tali BH",
     },
     {
       id: 4,
-      nama: "Susu",
-      rasa: "Janda",
+      nama: "Ice Cream",
+      rasa: "Tiga Roda",
     },
   ]);
 });
